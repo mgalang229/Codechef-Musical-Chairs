@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int n;
 		cin >> n;
-		// if we print the results of (n mod i, where 1 <= i <= n) and it can be observed
+		// if we print the results of (n mod i, where 1 <= i <= n), then it can be observed
 		// that the (n mod i) which results to 1 are the factors of the (n - 1)-th number
 		// for example: n = 13
 		// 13 mod 1 = 0
